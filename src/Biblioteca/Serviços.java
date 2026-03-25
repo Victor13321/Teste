@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Serviços {
     
-    // Agora ele recebe o scanner da Main para não criar vazamentos (Resource leak)
     public int opcao(Scanner scanner) {
         System.out.println("\n--- MENU DA BIBLIOTECA ---");
         System.out.println("[1] Listar livros");
